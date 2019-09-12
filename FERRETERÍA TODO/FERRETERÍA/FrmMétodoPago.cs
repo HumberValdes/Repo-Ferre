@@ -25,7 +25,7 @@ namespace FERRETERÍA
             cmd.CommandType = CommandType.StoredProcedure;
             SqlParameter parid = new SqlParameter("@IdMétodoPago", SqlDbType.Int);
             SqlParameter parDescripcion = new SqlParameter("@Descripción", SqlDbType.VarChar);
-            parid.Value = txtId.Text;
+            parid.Value = Convert.ToInt32(txtideliminar.Text);
             parDescripcion.Value = txtDescripcion.Text;
             cmd.Parameters.Add(parid);
             cmd.Parameters.Add(parDescripcion);
