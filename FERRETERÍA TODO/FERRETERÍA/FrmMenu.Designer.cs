@@ -143,7 +143,7 @@
             // 
             // BtnEntrega
             // 
-            this.BtnEntrega.Location = new System.Drawing.Point(472, 246);
+            this.BtnEntrega.Location = new System.Drawing.Point(456, 246);
             this.BtnEntrega.Name = "BtnEntrega";
             this.BtnEntrega.Size = new System.Drawing.Size(152, 23);
             this.BtnEntrega.TabIndex = 10;
