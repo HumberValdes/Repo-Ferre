@@ -98,9 +98,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(103, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 13);
+            this.label1.Size = new System.Drawing.Size(134, 13);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Inserta ID ejemplo (A1B2C3)";
+            this.label1.Text = "Iserta ID ejemplo (A1B2C3)";
             // 
             // label2
             // 
